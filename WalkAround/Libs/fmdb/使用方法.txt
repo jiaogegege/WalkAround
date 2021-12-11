@@ -1,0 +1,2 @@
+选中文件：build phases 改成-fno-objc-arc
+添加底层二进制库：libsqlite3.tbd

@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  WalkAround
+//
+//  Created by 蒋雪姣 on 16/1/18.
+//  Copyright © 2016年 蒋雪姣. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <CoreMotion/CoreMotion.h>
+#import <UIKit/UIKit.h>
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kMainColor [UIColor colorWithRed:255/255.0 green:160/255.0 blue:30/255.0 alpha:1]
+#define bgColor [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1]
+
+#endif /* PrefixHeader_pch */
